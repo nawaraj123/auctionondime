@@ -1,0 +1,185 @@
+/* CSS Document */
+
+/*---------------------- Header section ------------------------*/
+
+h1 {font-family:"Times New Roman", Times, serif; font-weight:normal; font-size:23px;}
+#header_left img
+{
+	position:relative;
+	visibility:visible;
+	z-index:-999px;
+}
+#callus h4 {float:right; padding:0px; margin:-15px 0 4px -8px;font-size:13px; font-weight:bold; position:absolute;}
+#callus {float:right; padding:0px 0 5px 0; margin:20px 7px 0 0; text-align:right; position:relative;}
+#callus .search
+{
+	float:right;
+	margin-top:0px;
+	margin-top:5px;
+	
+	
+}
+#callus input[type="text"] {font-size:12px; height:18px; color:#666; width:150px;}
+.read_btn {height:24px; width:60px; background:#0099FF; float:right; color:#FFFFFF; border:1px solid #888; border-radius:3px; cursor:pointer; font-size:11px;}
+
+/* Menu section */
+
+#menu {margin:10px 0 0 0; position:absolute; float:right; margin-top:70px; margin-left:-200px;}
+
+.nav li:hover > ul { display:block; z-index:100; margin-top:5px;} 
+.sub h1 a {color:#FF3300;}
+
+
+/* Body Contents */
+.content h2 a {color:#6c6969; font-size:18px;}
+#page a .active {background:#6c6969; color:#FFF;}
+
+/*-------------------- Sidebar Navigation ----------------------*/
+
+#accordion li ul li:hover {background:#F8F8F8;}
+#accordion li ul {background:#FFF;}
+
+#error ul li {font-weight:normal;}
+
+
+/* Featured Products */
+.products li IMG {display:block; margin:4px; border:5px solid #CCCCCC;}
+
+/* Featured Boxes */
+.box {height:250px; width:293px; border:1px solid #e2e0e0; float:left; padding:10px; margin:0px 5px; border-radius:5px; background:#FFF; overflow:hidden;}
+
+/* A link Fixes */
+.listing a {color:#6c6969;}
+.news a {color:#6c6969;}
+#footer_final .links a {color:#6c6969;}
+
+/* Footer Section */
+.footer_cont {width:293px; float:left; margin:15px 5px 0px 5px; padding:10px;}
+
+/* Featured Alliance */
+#btn_container {float:left; height:20px;}
+#alliance_container {width:295px; margin:0px auto;}
+#alliance_container .alliance li IMG {width:280px; height:180px;}
+#alliance_container .alliance {margin:0; padding:0px;}
+#alliance_container .alliance li {text-align:left; float:left; list-style:none;}
+.prev_alliance {cursor:pointer; float:left;}
+.next_alliance {cursor:pointer; float:left;}
+#btn_container ul {float:left; padding:2px 0px 0px 165px; height:20px;}
+
+#box-wrapper .box img{
+	border:none;}
+	.news_container {width:978px;}
+	#news-wrapper .news_container
+	{
+		height:50px;
+		position:relative;
+		}
+		#news-wrapper
+		{
+			padding-top:5px;
+			padding-bottom:5px;
+		}
+		
+		
+
+.facebook a{
+line-height:80px;
+color:#5171ac;
+float:left;
+	margin:0px 15px 0 -15px;
+	background:url(../images/facebook.gif) no-repeat;
+	width:31px;
+	height:31px;
+	border-radius:4px;
+}
+.facebook a:hover
+{
+	text-decoration:underline;
+	color:#000;
+}
+
+
+.twitter a
+{
+	
+	
+	line-height:80px;
+	color:#32a1d1;
+	float:left;
+		margin:0px 95px 0 10px;
+	background:url(../images/twitter123.gif) no-repeat;
+	width:31px;
+	height:31px;
+	border-radius:4px;
+	
+	
+}
+.twitter a:hover
+{
+	text-decoration:underline;
+	color:#000;
+}
+
+.youtube a
+{
+	
+	
+	line-height:80px;
+	color:#cc2925;
+	float:left;
+	margin:0px 0 0 -70px;
+	background:url(../images/you-tube123.gif) no-repeat;
+	width:31px;
+	height:31px;
+	border-radius:4px;
+}
+.youtube a:hover
+{
+	text-decoration:underline;
+	color:#000;
+}
+
+.read
+{
+	position:absolute;
+	left:370px;
+	bottom:-57px;
+
+}
+.read a
+{
+	top:150px;
+	Position:absolute;
+	left:55px;
+}
+.read_products
+{
+	position:absolute;
+	left:693px;
+	bottom:-57px;
+
+}
+.read_products a
+{
+	top:150px;
+	Position:absolute;
+	left:55px;
+	
+}
+
+.readmore {
+	position:absolute;
+	left:693px;
+	bottom:-57px;}
+.readmore a 
+{
+	top:150px;
+	Position:absolute;
+	left:385px;
+	}
+
+#pagination-wrapper {
+    float: right;
+    margin-top: 5px;
+    width: 720px;
+}
